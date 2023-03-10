@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1678327603 "c:/Users/bayoy/OneDrive/Desktop/Calculo Aplicado/Tarea 1/Tarea1.tex" "build/Tarea1.pdf" "Tarea1" 1678327604 0
+["pdflatex"] 1678422714 "c:/Users/bayoy/OneDrive/Desktop/Calculo Aplicado/Tarea 1/Tarea1.tex" "build/Tarea1.pdf" "Tarea1" 1678422716 0
   "C:/Users/bayoy/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1678325916 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/bayoy/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1678229316 23175797 f40b07cb52948e13dff063d0ad60e0b1 ""
   "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -8,13 +8,15 @@
   "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
   "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti10.tfm" 1136765053 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti12.tfm" 1136765053 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
+  "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247593066 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247593066 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1247593067 32001 6aeea3afe875097b1eb0da29acd61e28 ""
+  "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247593067 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247593067 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1247593067 36118 fad905eba93cff5bce1e185fe980a177 ""
   "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg" 1616067285 584 2a1075dd71571459f59146da9f7502ad ""
-  "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/tex/latex/base/report.cls" 1669844196 23203 3d69f4661dd74a5edb1507ff18e40fb9 ""
+  "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1669844196 20144 d5ecf0a5140c8d8d8b72cbe86e320eff ""
   "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1669844196 8448 c33a4e1cb35cee9b33c2b21033b73e39 ""
   "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1622999586 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.cfg" 1465890692 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -24,13 +26,15 @@
   "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1665063979 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1665063979 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
   "C:/Users/bayoy/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1673900822 30429 213676d4c7327a21d91ddaed900e7b81 ""
-  "Tarea1.tex" 1678327602 919 07f9d8949ea64e5877818377ed617bd9 ""
-  "build/Tarea1.aux" 1678327603 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "c:/Users/bayoy/OneDrive/Desktop/Calculo Aplicado/Tarea 1/Tarea1.tex" 1678327602 919 07f9d8949ea64e5877818377ed617bd9 ""
+  "Tarea1.tex" 1678422713 2249 3a185dc0dc3f2bcf765b952ed74aff33 ""
+  "build/Tarea1.aux" 1678422716 242 c0b5f4f060799f3831e308c648631351 "pdflatex"
+  "build/Tarea1.toc" 1678422716 128 3773fa64f53b634ae669232faf8637b9 "pdflatex"
+  "c:/Users/bayoy/OneDrive/Desktop/Calculo Aplicado/Tarea 1/Tarea1.tex" 1678422713 2249 3a185dc0dc3f2bcf765b952ed74aff33 ""
   "multimedia/ESCOM-Logo.png" 1678326239 9800 9adccdccbacbcd644c874343e46d68db ""
   "multimedia/Logo_Instituto_Politécnico_Nacional.png" 1678326967 127010 9bf8ce9f72c78e7eba7bd6b3a393f7c4 ""
   (generated)
   "build/Tarea1.aux"
   "build/Tarea1.log"
   "build/Tarea1.pdf"
+  "build/Tarea1.toc"
   (rewritten before read)

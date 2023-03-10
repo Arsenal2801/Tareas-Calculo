@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.7)  8 MAR 2023 20:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.7)  9 MAR 2023 22:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,20 +6,19 @@ entering extended mode
 **"c:/Users/bayoy/OneDrive/Desktop/Calculo Aplicado/Tarea 1/Tarea1.tex"
 (c:/Users/bayoy/OneDrive/Desktop/Calculo Aplicado/Tarea 1/Tarea1.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-07> (C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
-Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
+L3 programming layer <2023-02-07> (C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
-\c@chapter=\count186
-\c@section=\count187
-\c@subsection=\count188
-\c@subsubsection=\count189
-\c@paragraph=\count190
-\c@subparagraph=\count191
-\c@figure=\count192
-\c@table=\count193
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
@@ -43,37 +42,37 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@width=\dimen142
 ) (C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count194
+\l__color_backend_stack_int=\count193
 \l__pdf_internal_box=\box51
 ) (c:\Users\bayoy\OneDrive\Desktop\Calculo Aplicado\Tarea 1\build\Tarea1.aux)
 \openout1 = `Tarea1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
  (C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count195
+\scratchcounter=\count194
 \scratchdimen=\dimen143
 \scratchbox=\box52
-\nofMPsegments=\count196
-\nofMParguments=\count197
+\nofMPsegments=\count195
+\nofMParguments=\count196
 \everyMPshowfont=\toks17
-\MPscratchCnt=\count198
+\MPscratchCnt=\count197
 \MPscratchDim=\dimen144
-\MPnumerator=\count199
-\makeMPintoPDFobject=\count266
+\MPnumerator=\count198
+\makeMPintoPDFobject=\count199
 \everyMPtoPDFconversion=\toks18
 ) (C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -84,28 +83,37 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <multimedia/ESCOM-Logo.png, id=1, 262.9825pt x 200.75pt>
 File: multimedia/ESCOM-Logo.png Graphic file (type png)
 <use multimedia/ESCOM-Logo.png>
-Package pdftex.def Info: multimedia/ESCOM-Logo.png  used on input line 7.
+Package pdftex.def Info: multimedia/ESCOM-Logo.png  used on input line 12.
 (pdftex.def)             Requested size: 103.50105pt x 79.00896pt.
 <multimedia/Logo_Instituto_Politécnico_Nacional.png, id=2, 261.22594pt x 451.6875pt>
 File: multimedia/Logo_Instituto_Politécnico_Nacional.png Graphic file (type png)
 <use multimedia/Logo_Instituto_Politécnico_Nacional.png>
-Package pdftex.def Info: multimedia/Logo_Instituto_Politécnico_Nacional.png  used on input line 9.
+Package pdftex.def Info: multimedia/Logo_Instituto_Politécnico_Nacional.png  used on input line 14.
 (pdftex.def)             Requested size: 51.7479pt x 89.47437pt.
  [1
 
-{C:/Users/bayoy/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./multimedia/ESCOM-Logo.png> <./multimedia/Logo_Instituto_Politécnico_Nacional.png>] (c:\Users\bayoy\OneDrive\Desktop\Calculo Aplicado\Tarea 1\build\Tarea1.aux) ) 
+{C:/Users/bayoy/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./multimedia/ESCOM-Logo.png> <./multimedia/Logo_Instituto_Politécnico_Nacional.png>] (c:\Users\bayoy\OneDrive\Desktop\Calculo Aplicado\Tarea 1\build\Tarea1.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `Tarea1.toc'.
+
+ [1] [2] (c:\Users\bayoy\OneDrive\Desktop\Calculo Aplicado\Tarea 1\build\Tarea1.aux) ) 
 Here is how much of TeX's memory you used:
- 1328 strings out of 476339
- 23169 string characters out of 5788120
- 1851340 words of memory out of 5000000
- 21788 multiletter control sequences out of 15000+600000
- 514796 words of font info for 40 fonts, out of 8000000 for 9000
+ 1322 strings out of 476339
+ 23265 string characters out of 5788120
+ 1852340 words of memory out of 5000000
+ 21779 multiletter control sequences out of 15000+600000
+ 515708 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,62p,242b,139s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "c:\Users\bayoy\OneDrive\Desktop\Calculo Aplicado\Tarea 1\build\Tarea1.pdf" (1 page, 180900 bytes).
+ 57i,5n,62p,480b,139s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bayoy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "c:\Users\bayoy\OneDrive\Desktop\Calculo Aplicado\Tarea 1\build\Tarea1.pdf" (3 pages, 218637 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

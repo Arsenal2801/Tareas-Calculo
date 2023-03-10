@@ -2,17 +2,17 @@ PWD c:\Users\bayoy\OneDrive\Desktop\Calculo Aplicado\Tarea 1
 INPUT C:\Users\bayoy\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
 INPUT c:\Users\bayoy\OneDrive\Desktop\Calculo Aplicado\Tarea 1\Tarea1.tex
 OUTPUT c:\Users\bayoy\OneDrive\Desktop\Calculo Aplicado\Tarea 1\build\Tarea1.log
-INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
-INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
-INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
-INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
-INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
-INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
-INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
-INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
-INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
-INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
-INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
 INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
 INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
@@ -127,11 +127,22 @@ INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tf
 INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\bayoy\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT c:\Users\bayoy\OneDrive\Desktop\Calculo Aplicado\Tarea 1\build\Tarea1.toc
+INPUT c:\Users\bayoy\OneDrive\Desktop\Calculo Aplicado\Tarea 1\build\Tarea1.toc
+INPUT c:\Users\bayoy\OneDrive\Desktop\Calculo Aplicado\Tarea 1\build\Tarea1.toc
+OUTPUT c:\Users\bayoy\OneDrive\Desktop\Calculo Aplicado\Tarea 1\build\Tarea1.toc
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT c:\Users\bayoy\OneDrive\Desktop\Calculo Aplicado\Tarea 1\build\Tarea1.aux
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\bayoy\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
