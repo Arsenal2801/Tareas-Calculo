@@ -3,6 +3,8 @@
 %                      Dependencies
 %=======================================================
 \usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{amsmath}
 
 \begin{document}
 %=======================================================
@@ -33,9 +35,9 @@
     {\Large 10 de Marzo 2023 \par}
   \end{titlepage}
 
-  %=======================================================
+  %=====================================================
   %                         Content
-  %=======================================================
+  %=====================================================
   \renewcommand*\contentsname{Índice}
   \tableofcontents
   \newpage
@@ -43,5 +45,29 @@
     El capítulo 5 del libro "Cálculo de Trascendentes Tempranas" de Dennis G. Zill se enfoca en el tema de las integrales definidas. Las integrales definidas son una herramienta fundamental en el cálculo integral y se utilizan para calcular el área bajo una curva, el volumen de sólidos de revolución y muchas otras aplicaciones en matemáticas, física y otras áreas de la ciencia.
   \subsection{Lo que revisamos}
     A lo largo de este documento se podra ver la resolucion de los problemas propuestos en el libro anteriormente mencionado aclarando que dichos problemas fueron divididos por equipo tocandole al "Equipo Capibara" los problemas impares(5,17,29,41,53,65) de las paginas: 293-295 y 303-305
+  \section{Problemario 1 (293-295)}
   
+      \subsection{Problema 5}
+        Desarrolle la suma indicada:
+       \begin{equation}\label{eq_1}
+        \sum_{k=1}^{10}\frac{(-1)^k}{2k+5}
+       \end{equation}
+       Donde si hacemos a sumatoria dada por la ecuacion \ref{eq_1} tenemos:
+       \begin{equation}\label{eq_2}
+        \begin{split}
+          \frac{(-1)^1}{2(1)+5}+\frac{(-1)^2}{2(2)+5}+\frac{(-1)^3}{2(3)+5}+\frac{(-1)^4}{2(4)+5}+\frac{(-1)^5}{2(5)+5}+\\\frac{(-1)^6}{2(6)+5}+\frac{(-1)^7}{2(7)+5}+\frac{(-1)^8}{2(8)+5}+\frac{(-1)^9}{2(9)+5}+\frac{(-1)^{10}}{2(10)+5}
+        \end{split}
+       \end{equation}
+       Realizando las respectivas operaciones en \ref{eq_2}
+       \begin{equation}\label{eq_3}
+          -\frac{1}{7}+\frac{1}{9}-\frac{1}{11}+\frac{1}{13}-\frac{1}{15}+\frac{1}{17}-\frac{1}{19}+\frac{1}{21}-\frac{1}{23}+\frac{1}{25} = -0.062065975\dots
+       \end{equation}
+       Teniendo asi que el resultado esta dado en la ecuacion \ref{eq_4}, es decir, la que esta a continuacion: 
+       \begin{equation}\label{eq_4}
+        \sum_{k=1}^{10}\frac{(-1)^k}{2k+5} = -0.062065975\dots
+       \end{equation}
+      \subsection{Problema 17}
+      \subsection{Problema 29}
+      \subsection{Problema 41}
+      \subsection{Problema 53}
 \end{document}
