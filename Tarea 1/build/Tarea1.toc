@@ -3,6 +3,6 @@
 \contentsline {section}{\numberline {2}Problemario 1 (293-295)}{2}{}%
 \contentsline {subsection}{\numberline {2.1}Problema 5}{2}{}%
 \contentsline {subsection}{\numberline {2.2}Problema 17}{2}{}%
-\contentsline {subsection}{\numberline {2.3}Problema 29}{2}{}%
-\contentsline {subsection}{\numberline {2.4}Problema 41}{2}{}%
-\contentsline {subsection}{\numberline {2.5}Problema 53}{2}{}%
+\contentsline {subsection}{\numberline {2.3}Problema 29}{3}{}%
+\contentsline {subsection}{\numberline {2.4}Problema 41}{3}{}%
+\contentsline {subsection}{\numberline {2.5}Problema 53}{3}{}%
