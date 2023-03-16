@@ -100,8 +100,28 @@
         \end{equation}
         Desarrollando:
         \begin{align*}
-          a
+          A = \lim_{n\to\infty} \sum_{k=1}^{n} f\left(k\frac{6}{n}\right)* \frac{6}{n} =\dots\\\dots = \lim_{n\to\infty} \sum_{k=1}^{n} \left(\frac{36k}{n^2}\right)=\lim_{n\to\infty}\left[\frac{36}{n^2} \sum_{k=1}^{n} k\right]=\dots \\ \dots = \lim_{n\to\infty}\left[\frac{36}{n^2} *\frac{n(n+1)}{2}\right]=\lim_{n\to\infty} \left[18*\frac{n(n+1)}{n^2}\right]=\dots \\ \dots = 18\lim_{n\to\infty} \left[\frac{n+1}{n}\right]= 18*1=18
         \end{align*}
+        Por lo tanto $A = 18$
       \subsection{Problema 41}
+        Utilizando los teoremas y la definicion del problema anteriror resuelva lo siguiente:
+        \begin{equation*}
+          f(x) = \left\{
+            \begin{array}{lcc}
+              2, & si & 0\leq x < 1 \\
+              x+1, & si & 1 \leq x \leq 4
+            \end{array}
+          \right.
+        \end{equation*}
+        Entonces podemos decir que el area esta dada por:
+        \begin{equation}
+          A = \int_{0}^{1} f(x)dx + \int_{1}^{5} f(x)dx
+        \end{equation}
+        Gracias a esta suma podemos trabajar por separado los dos trozos de la funcion. Asi facilitando s manipulacion.
+        Para el segmento de $\int_{0}^{1}f(x)dx$ la funcion esta evaluada en 2. Por lo cual el area esta dada por un valor constante y para este caso debemos agregar una propiedad:
+        \begin{equation}
+          \int_{a}^{b}kdx = k\int_{a}^{b}dx = k(b-a)
+        \end{equation}
+
       \subsection{Problema 53}
 \end{document}
