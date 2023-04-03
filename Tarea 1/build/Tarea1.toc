@@ -10,3 +10,6 @@
 \contentsline {section}{\numberline {3}Problemario 2: 303-305}{6}{}%
 \contentsline {subsection}{\numberline {3.1}Problema 5}{6}{}%
 \contentsline {subsection}{\numberline {3.2}Problema 17}{7}{}%
+\contentsline {subsection}{\numberline {3.3}Problema 29}{8}{}%
+\contentsline {subsection}{\numberline {3.4}Problema 41}{8}{}%
+\contentsline {subsection}{\numberline {3.5}Problema 53}{9}{}%

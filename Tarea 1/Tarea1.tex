@@ -5,6 +5,7 @@
 \usepackage{graphicx}
 \usepackage{multicol}
 \usepackage{amsmath}
+\usepackage{pgfplots}
 
 \begin{document}
 %=======================================================
@@ -192,4 +193,49 @@
       \begin{align*}
         \int_{0}^{1}(x^3 -1)dx = \int_{0}^{1} x^3dx + \int_{0}^{1} 1dx  = \frac{1}{4} -1 = -\frac{3}{4}
       \end{align*}
+      \subsection{Problema 29}
+      Integre:
+      $$\int_{3}^{-1}t^2dt$$
+      Desarrollando con las propiedades anteriores:
+      \begin{align*}
+        \int_{3}^{-1} t^2 dt = \lim_{n\to\infty}\sum_{k=1}^{n}f\left(3-\frac{4k}{n}\right)\cdot\left(-\frac{4}{n}\right) =\dots \\\dots = \lim_{n\to\infty}\sum_{k=1}^{n}\left(9-\frac{24k}{n}+\frac{16k^2}{n^2}\right)\cdot\left(-\frac{4}{n}\right) = \dots \\ \dots = \lim_{n\to\infty}\sum_{k=1}^{n}\left[-\frac{36}{n}+\frac{96k}{n^2}-\frac{64k^2}{n^3}\right] = \dots \\ \dots = \lim_{n\to\infty}\left[-\frac{36}{n}+\frac{96}{n^2}\cdot\frac{n(n+1)}{2}-\frac{64}{n^3}\cdot\frac{n(n+1)(2n+1)}{6}\right]=\dots \\ \dots = \lim_{n\to\infty}\left[-36+48\cdot\frac{n+1}{n}-\frac{32}{3}\cdot\frac{2n^2+3n+1}{n^2}\right]=\dots \\ \dots = -36+8-\frac{64}{3} = - \frac{28}{3}
+      \end{align*}
+      \subsection{Problema 41}
+      Calcule:
+      $$
+      \int_{-1}^{2} [2f(x)+g(x)]dx
+      $$
+      Si
+      \begin{align*}
+        \int_{-1}^{2}f(x)dx = 3.4 && y && 3\int_{-1}^{2}g(x)dx=12.6
+      \end{align*}
+      Haciendo las operaciones respectivas:
+      \begin{align*}
+        2\int_{-1}^{2}f(x)dx + \int_{-1}^{2}g(x)dx = 2\cdot3.4 + \frac{12.6}{3} = 6.8 + 4.2 = 11
+      \end{align*}
+      \subsection{Problema 53}
+      La integral dada representa la siguiente area con signo entre una grafica y el eje x sobre un intervalo. Trace esta region. \newline
+      \begin{center}
+        \begin{tikzpicture}
+          \begin{axis}[
+              xlabel={$x$},
+              ylabel={$y$},
+              xmin=-5, xmax=5,
+              ymin=-10, ymax=10,
+              axis lines=middle,
+              samples=100,
+              domain=-5:5,
+          ]
+          
+          % graficar la recta -2x+6
+          \addplot[color=blue,thick]{-2*x+6};
+          
+          % remarcar el área bajo la curva en el intervalo [0,5]
+          \addplot[fill=green,opacity=0.5,domain=0:5] {-2*x+6} \closedcycle;
+          
+          \node[above right, font=\fontsize{12}{15}\selectfont\bfseries] at (700,150) {A = 5u²};
+  
+          \end{axis}
+        \end{tikzpicture}
+      \end{center}
 \end{document}
