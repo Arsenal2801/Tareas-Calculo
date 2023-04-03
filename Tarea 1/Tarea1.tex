@@ -238,4 +238,17 @@
           \end{axis}
         \end{tikzpicture}
       \end{center}
+      \subsection{Problema 65}
+      Utilizando propiedades de comparacion demuestre que:
+      $$\int_{-1}^{0}e^xdx\leq \int_{-1}^{0}e^{-x}dx$$
+      Si \(g(x)=e^x\), entonces \(\int_{-1}^{1}g(x)dx=1-\frac{1}{e}\) por lo tanto: \(\int_{-1}^{0}e^{-x}\geq 1-\frac{1}{e}\).
+      \newline
+      De forma semejante tomando \(f(x) = e^{-x}\), entonces \(\int_{-1}^{0}f(x)dx = e-1\), por lo tanto \(\int_{-1}^{0}e^xdx\leq e-1\). \newline
+      Con esta informacion podemos decir que:
+      $$
+      e-1 \geq 1- \frac{1}{e}
+      $$
+      Y esta desigualdad se cumple ya que sustituyendo con sus valores aproximados tenemos:
+      $$1.7182\geq 0.6321$$
+      Por lo tanto esto es verdadero.
 \end{document}
