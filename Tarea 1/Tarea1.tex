@@ -20,7 +20,7 @@
     \vspace{1cm}
     {\scshape\LARGE Escuela Superior de C\'omputo\par}
     \vspace{1cm}
-    {\scshape\Huge T\'itulo del proyecto\par}
+    {\scshape\Huge Unidad 1: La integral definida y sus aplicaciones \par}
     \vspace{2cm}
     {\itshape\Large Zarate Cardenas Alejandro\par}
     \vfill
@@ -42,10 +42,17 @@
   \tableofcontents
   \newpage
   \section{Introducción}
-    El capítulo 5 del libro "Cálculo de Trascendentes Tempranas" de Dennis G. Zill se enfoca en el tema de las integrales definidas. Las integrales definidas son una herramienta fundamental en el cálculo integral y se utilizan para calcular el área bajo una curva, el volumen de sólidos de revolución y muchas otras aplicaciones en matemáticas, física y otras áreas de la ciencia.
+
+  La integral definida es uno de los conceptos fundamentales en el cálculo, una rama de las matemáticas que estudia el cambio y la variación. La integral definida es una operación matemática que permite calcular el valor de una función en un intervalo específico. A diferencia de la integral indefinida, que devuelve una familia de funciones, la integral definida da como resultado un número único.
+
+  La integral definida tiene múltiples aplicaciones en diversas áreas de la ciencia, la ingeniería y la economía. En física, la integral definida se utiliza para calcular la energía cinética y potencial, la velocidad y la aceleración de un objeto en movimiento. En ingeniería, se utiliza para diseñar puentes, carreteras y edificios, y para optimizar procesos industriales. En economía, la integral definida se utiliza para calcular el valor presente de una inversión o el flujo de caja de una empresa. En biología, se utiliza para modelar el crecimiento de poblaciones y la distribución de especies en un ecosistema.
+  
+  Para calcular una integral definida, se divide el intervalo en pequeñas secciones llamadas subintervalos y se aproxima el valor de la función en cada uno de ellos. Luego, se suman los resultados de cada subintervalo para obtener una aproximación del valor de la integral. A medida que se dividen los subintervalos en secciones más pequeñas, la aproximación se vuelve más precisa.
+  
+  En resumen, la integral definida es una herramienta matemática poderosa con innumerables aplicaciones prácticas en diversas áreas. Es una herramienta fundamental en el cálculo y se utiliza para calcular el área bajo una curva, la longitud de una curva y el volumen de un sólido de revolución, entre otras cosas. Su importancia en la ciencia y la ingeniería es crucial para el avance y desarrollo de la tecnología moderna.
   \subsection{Lo que revisamos}
-    A lo largo de este documento se podra ver la resolucion de los problemas propuestos en el libro anteriormente mencionado aclarando que dichos problemas fueron divididos por equipo tocandole al "Equipo Capibara" los problemas impares(5,17,29,41,53,65) de las paginas: 293-295 y 303-305
-  \section{Problemario 1 (293-295)}
+    A lo largo de este documento se podra ver la resolucion de los problemas propuestos en el libro anteriormente mencionado aclarando que dichos problemas fueron divididos por equipo tocandole al "Equipo Capibara" los problemas impares(5,17,29,41,53) de las paginas: 293-295, 303-305, 313-314, 331-332, 430-432 
+  \section{Problemario 1: 293-295}
   
       \subsection{Problema 5}
         Desarrolle la suma indicada:
@@ -133,7 +140,56 @@
         Trabajando por partes:
         \begin{align*}
           i) \int_{1}^{4}xdx&=\dots & ii) 1\int_{1}^{4}dx&= \dots \\ \dots=\lim_{n\to\infty} \sum_{k=1}^{n}\left[1+\frac{3k}{n}\right]\cdot\frac{3}{n}&=\dots & \dots = 1(4-1)&=3 \\
-          \dots=\lim_{n\to\infty} \sum_{k=1}^{n}\left[\frac{3}{n}+\frac{9k}{n^2}\right]\cdot\frac{3}{n}&=\dots \\ \dots = 
+          \dots=\lim_{n\to\infty} \sum_{k=1}^{n}\left[\frac{3}{n}+\frac{9k}{n^2}\right]\cdot\frac{3}{n}&=\dots \\ \dots = \lim_{n\to\infty}\left[3+\frac{9}{n^2}\cdot\frac{n(n+1)}{2}\right] = \dots \\ \dots=\lim_{n\to\infty}\left[3+\frac{9}{2}\cdot\frac{n+1}{n}\right]= 3+\frac{9}{2} = \frac{15}{2}
         \end{align*}
+        Ya que se tienen las integrales por partes tenemos lo siguiente:
+        \begin{equation}
+          A_2 = \int_{1}^{4}xdx = \frac{15}{2} + 3 = \frac{21}{2}
+        \end{equation}
+        Para terminar realizamos la suma entre \(A_1\) y \(A_2\) para obtener \(A_T\):
+        \begin{equation}
+          A_T = \int_{0}^{4} f(x)dx = A_1 + A_2 = \frac{21}{2} + 2 = \frac{25}{2}
+        \end{equation}
       \subsection{Problema 53}
+      Despeje \(\bar{x}\) de :
+      \begin{equation}
+        \sum_{k=1}^{n}(x_k-\bar{x})^2 = 0
+      \end{equation}
+      Desarrollando: 
+      \begin{align*}
+        \sum_{k=1}^{n}x^2_k - 2x_k\bar{x} + \bar{x}^2=0 \\ \sum_{k=1}^{n}x^2_k -\sum_{k=1}^{n} 2x_k\bar{x} + \sum_{k=1}^{n} \bar{x}^2 = 0 \\ \sum_{k=1}^{n} x^2_k -2\bar{x}\sum_{k=1}^{n}x_k + \bar{x}^2=0 \\ \bar{x}^2-2\bar{x}\sum_{k=1}^{n}x_k = -\sum_{k=1}^{n} x^2_k \\ \bar{x}^2-2\bar{x}\sum_{k=1}^{n}x_k + \left(\sum_{k=1}^{n} x_k\right)^2 = \left(\sum_{k=1}^{n} x_k\right)^2 -\sum_{k=1}^{n} x^2_k \\ \left(\bar{x} + \sum_{k=1}^{n} x_k \right)^2 = \left(\sum_{k=1}^{n} x_k\right)^2 -\sum_{k=1}^{n} x^2_k \\ \bar{x} + \sum_{k=1}^{n} x_k = \sqrt{\left(\sum_{k=1}^{n} x_k\right)^2 -\sum_{k=1}^{n} x^2_k} \\ \bar{x} = \sqrt{\left(\sum_{k=1}^{n} x_k\right)^2 -\sum_{k=1}^{n} x^2_k} - \sum_{k=1}^{n} x_k
+      \end{align*}
+      \subsection{Conclusión}
+      En conclusión, las sumas de Riemann son una técnica matemática utilizada para aproximar el valor de una integral definida. Esta técnica se basa en dividir el intervalo de integración en subintervalos y aproximar el valor de la función en cada uno de ellos. A medida que se divide el intervalo en secciones más pequeñas, la aproximación se vuelve más precisa. Las sumas de Riemann son una herramienta esencial en el cálculo y tienen aplicaciones en diversas áreas, como la física, la ingeniería y la economía. Además, son la base para el desarrollo del cálculo integral, una rama fundamental de las matemáticas.
+      \section{Problemario 2: 303-305}
+      \subsection{Problema 5}
+      Sea una funcion \(f(x)\) definida por: \(f(x) = sin(x)\) calcule el area dada por el intervalo cerrado: \([0,2\pi]\) considerando los siguientes subintervalos: $$x_0 = 0; x_1 = \pi; x_2 = \frac{3\pi}{2}; x_3 = 2\pi$$ y: $$x_1^*=\frac{\pi}{2}; x_2^*=\frac{7\pi}{6}; x_3^* = \frac{7\pi}{4}$$
+      Como ya sabemos el area se calcula con: $$\sum_{k=1}^{n}f(x^*_k) \bigtriangleup  x_k$$
+      Por lo que desarrollando tenemos:
+      \begin{align*}
+        \sum_{k=1}^{3}f(x^*_k) \bigtriangleup  x_k && = && f(x_1^*)\bigtriangleup x_1 + f(x_2^*)\bigtriangleup x_2 + f(x_3^*)\bigtriangleup x_3 \\
+        f(x_1^*) = sin\left(\frac{\pi}{2}\right) = 1 && ; && \bigtriangleup x_1 = \pi - 0 = \pi  \\
+        f(x_2^*) = sin\left(\frac{7\pi}{6}\right) = -\frac{1}{2} && ; && \bigtriangleup x_2 = \frac{3\pi}{2} - \pi = \frac{\pi}{2} \\ 
+        f(x_3^*) = sin\left(\frac{7\pi}{4}\right) = -\frac{\sqrt{2}}{2} && ; && \bigtriangleup x_3 = 2\pi - \frac{3\pi}{2}  = \frac{\pi}{2}
+      \end{align*}
+      Sustituyendo:
+      \begin{align*}
+        \sum_{k=1}^{3}f(x^*_k) \bigtriangleup  x_k = f(x_1^*)\bigtriangleup x_1 + f(x_2^*)\bigtriangleup x_2 + f(x_3^*)\bigtriangleup x_3 = \dots \\ \dots = \pi - \frac{1}{2} \cdot \frac{\pi}{2} - \frac{\sqrt{2}}{2} \cdot \frac{\pi}{2} \approx 1.245473
+      \end{align*}
+      \subsection{Problema 17}
+      Integre por definicion lo siguiente:
+      $$\int_{0}^{1}(x^3 -1)dx$$
+      Utilizando las formulas dadas en el problema 29 de la seccion anterior y algunas propiedades de las integrales tenemos:
+      \begin{align*}
+        \int_{0}^{1} x^3dx + \int_{0}^{1} 1dx
+      \end{align*}
+      Trabajando por separado:
+      \begin{align*}
+        \int_{0}^{1} x^3dx =\lim_{n\to\infty} \sum_{k=1}^{n}f\left(\frac{k}{n}\right)\cdot\frac{1}{n} = \dots && -\int_{0}^{1}1dx = -1(1-0) = -1 \\
+        \dots = \lim_{n\to\infty} \sum_{k=1}^{n} \left(\frac{k^3}{n^4}\right) = \lim_{n\to\infty} \left[\frac{1}{n^4}\sum_{k=1}^{n}k^3\right]=\dots \\ \dots = \lim_{n\to\infty}\left[\frac{1}{4}\cdot\frac{n^2(n+1)^2}{n^4}\right] = \lim_{n\to\infty}\left[\frac{1}{4}\cdot\frac{(n+1)^2}{n^2}\right]= \dots \\ \dots = \frac{1}{4} \lim_{n\to\infty}\left[\frac{n^2+2n+1}{n^2}\right] = \frac{1}{4} \cdot 1 = \frac{1}{4}
+      \end{align*}
+      Realizando la suma de las 2 partes:
+      \begin{align*}
+        \int_{0}^{1}(x^3 -1)dx = \int_{0}^{1} x^3dx + \int_{0}^{1} 1dx  = \frac{1}{4} -1 = -\frac{3}{4}
+      \end{align*}
 \end{document}
