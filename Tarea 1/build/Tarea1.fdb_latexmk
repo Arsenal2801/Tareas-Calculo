@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1681520747 "/home/arsenal/Escritorio/Tareas-Calculo/Tarea 1/Tarea1.tex" "build/Tarea1.pdf" "Tarea1" 1681520757
+["pdflatex"] 1681521307 "/home/arsenal/Escritorio/Tareas-Calculo/Tarea 1/Tarea1.tex" "build/Tarea1.pdf" "Tarea1" 1681521318
   "/etc/texmf/web2c/texmf.cnf" 1678828052 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/arsenal/Escritorio/Tareas-Calculo/Tarea 1/Tarea1.tex" 1681520732 39177 c20fdba0ca38891f791ca72bd820ce66 ""
+  "/home/arsenal/Escritorio/Tareas-Calculo/Tarea 1/Tarea1.tex" 1681521304 39182 13afde19b8ac459cf9b14df45511660b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcbx1200.tfm" 1136768653 1536 c09172c8f235393e6235bb4758357c41 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -159,9 +159,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1678828370 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1678828478 2799915 892156bd4bdc63ab1f260321a7e44fe1 ""
-  "Tarea1.tex" 1681520732 39177 c20fdba0ca38891f791ca72bd820ce66 ""
-  "build/Tarea1.aux" 1681520757 6119 be4984b16b6e459d68dfc7ae63bd5cb8 "pdflatex"
-  "build/Tarea1.toc" 1681520757 3603 723aa8ff1684f1cd78cd4ab3b482bc40 "pdflatex"
+  "Tarea1.tex" 1681521304 39182 13afde19b8ac459cf9b14df45511660b ""
+  "build/Tarea1.aux" 1681521318 6119 be4984b16b6e459d68dfc7ae63bd5cb8 "pdflatex"
+  "build/Tarea1.toc" 1681521318 3603 723aa8ff1684f1cd78cd4ab3b482bc40 "pdflatex"
   "multimedia/ESCOM-Logo.png" 1678845012 9800 42a3a1164f2591420ac177bf7d43de9b ""
   "multimedia/Logo_Instituto_Politécnico_Nacional.png" 1678845012 127010 a531fa0982844b57807e95d3a97ea0c9 ""
   "multimedia/Problema5.jpeg" 1681498258 11911 a694d4c19d1beeb2f54ea0e2925fe732 ""
