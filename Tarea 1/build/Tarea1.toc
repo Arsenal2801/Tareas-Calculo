@@ -42,15 +42,15 @@
 \contentsline {subsection}{\numberline {7.2}Problema 17}{19}{}%
 \contentsline {subsection}{\numberline {7.3}Problema 29}{20}{}%
 \contentsline {subsection}{\numberline {7.4}Conclusión}{21}{}%
-\contentsline {section}{\numberline {8}Problemario 7}{21}{}%
+\contentsline {section}{\numberline {8}Problemario 7 }{21}{}%
 \contentsline {subsection}{\numberline {8.1}Problema 5}{21}{}%
 \contentsline {subsection}{\numberline {8.2}Problema 17}{21}{}%
-\contentsline {section}{\numberline {9}Problema 29}{22}{}%
-\contentsline {subsection}{\numberline {9.1}Conclusión}{22}{}%
-\contentsline {section}{\numberline {10}Problemario 8: 347-348}{23}{}%
-\contentsline {subsection}{\numberline {10.1}Problema 5}{23}{}%
-\contentsline {subsection}{\numberline {10.2}Problema 17}{23}{}%
-\contentsline {subsection}{\numberline {10.3}Conclusión}{23}{}%
-\contentsline {section}{\numberline {11}Problemario 10}{24}{}%
-\contentsline {subsection}{\numberline {11.1}Problema 3}{24}{}%
-\contentsline {subsection}{\numberline {11.2}Conclusión}{24}{}%
+\contentsline {subsection}{\numberline {8.3}Problema 29}{22}{}%
+\contentsline {subsection}{\numberline {8.4}Conclusión}{22}{}%
+\contentsline {section}{\numberline {9}Problemario 8: 347-348}{23}{}%
+\contentsline {subsection}{\numberline {9.1}Problema 5}{23}{}%
+\contentsline {subsection}{\numberline {9.2}Problema 17}{23}{}%
+\contentsline {subsection}{\numberline {9.3}Conclusión}{23}{}%
+\contentsline {section}{\numberline {10}Problemario 9}{24}{}%
+\contentsline {subsection}{\numberline {10.1}Problema 3}{24}{}%
+\contentsline {subsection}{\numberline {10.2}Conclusión}{24}{}%
