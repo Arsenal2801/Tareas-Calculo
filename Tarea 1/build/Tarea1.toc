@@ -1,39 +1,56 @@
-\contentsline {section}{\numberline {1}Introducción}{2}{}%
-\contentsline {subsection}{\numberline {1.1}Lo que revisamos}{2}{}%
-\contentsline {section}{\numberline {2}Problemario 1: 293-295}{2}{}%
-\contentsline {subsection}{\numberline {2.1}Problema 5}{2}{}%
-\contentsline {subsection}{\numberline {2.2}Problema 17}{3}{}%
-\contentsline {subsection}{\numberline {2.3}Problema 29}{3}{}%
-\contentsline {subsection}{\numberline {2.4}Problema 41}{4}{}%
-\contentsline {subsection}{\numberline {2.5}Problema 53}{5}{}%
-\contentsline {subsection}{\numberline {2.6}Conclusión}{6}{}%
-\contentsline {section}{\numberline {3}Problemario 2: 303-305}{6}{}%
-\contentsline {subsection}{\numberline {3.1}Problema 5}{6}{}%
-\contentsline {subsection}{\numberline {3.2}Problema 17}{7}{}%
-\contentsline {subsection}{\numberline {3.3}Problema 29}{8}{}%
-\contentsline {subsection}{\numberline {3.4}Problema 41}{8}{}%
-\contentsline {subsection}{\numberline {3.5}Problema 53}{9}{}%
-\contentsline {subsection}{\numberline {3.6}Problema 65}{9}{}%
-\contentsline {subsection}{\numberline {3.7}Conclusión}{10}{}%
-\contentsline {section}{\numberline {4}Problemario 3: 313-314}{10}{}%
-\contentsline {subsection}{\numberline {4.1}Problema 5}{10}{}%
-\contentsline {subsection}{\numberline {4.2}Problema 17}{10}{}%
-\contentsline {subsection}{\numberline {4.3}Problema 29}{11}{}%
-\contentsline {subsection}{\numberline {4.4}Problema 41}{11}{}%
-\contentsline {subsection}{\numberline {4.5}Problema 53}{11}{}%
-\contentsline {subsection}{\numberline {4.6}Problema 65}{12}{}%
-\contentsline {subsection}{\numberline {4.7}Conclusión}{12}{}%
-\contentsline {section}{\numberline {5}Problemario 4: 430-432}{12}{}%
-\contentsline {subsection}{\numberline {5.1}Problema 5}{12}{}%
-\contentsline {subsection}{\numberline {5.2}Problema 17}{13}{}%
-\contentsline {subsection}{\numberline {5.3}Problema 29}{13}{}%
-\contentsline {subsection}{\numberline {5.4}Problema 41}{13}{}%
-\contentsline {subsection}{\numberline {5.5}Conclusión}{14}{}%
-\contentsline {section}{\numberline {6}Problemario 5: 331-332}{15}{}%
-\contentsline {subsection}{\numberline {6.1}Problema 5}{15}{}%
-\contentsline {subsection}{\numberline {6.2}Problema 17}{15}{}%
-\contentsline {subsection}{\numberline {6.3}Problema 29}{15}{}%
-\contentsline {subsection}{\numberline {6.4}Problema 41}{16}{}%
-\contentsline {subsection}{\numberline {6.5}Problema 53}{17}{}%
-\contentsline {subsection}{\numberline {6.6}Problema 65}{17}{}%
-\contentsline {subsection}{\numberline {6.7}Conclusión}{18}{}%
+\contentsline {section}{\numberline {1}Introducción}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Lo que revisamos}{3}{}%
+\contentsline {section}{\numberline {2}Problemario 1: 293-295}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Problema 5}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Problema 17}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Problema 29}{4}{}%
+\contentsline {subsection}{\numberline {2.4}Problema 41}{5}{}%
+\contentsline {subsection}{\numberline {2.5}Problema 53}{6}{}%
+\contentsline {subsection}{\numberline {2.6}Conclusión}{7}{}%
+\contentsline {section}{\numberline {3}Problemario 2: 303-305}{7}{}%
+\contentsline {subsection}{\numberline {3.1}Problema 5}{7}{}%
+\contentsline {subsection}{\numberline {3.2}Problema 17}{8}{}%
+\contentsline {subsection}{\numberline {3.3}Problema 29}{9}{}%
+\contentsline {subsection}{\numberline {3.4}Problema 41}{9}{}%
+\contentsline {subsection}{\numberline {3.5}Problema 53}{10}{}%
+\contentsline {subsection}{\numberline {3.6}Problema 65}{10}{}%
+\contentsline {subsection}{\numberline {3.7}Conclusión}{11}{}%
+\contentsline {section}{\numberline {4}Problemario 3: 313-314}{11}{}%
+\contentsline {subsection}{\numberline {4.1}Problema 5}{11}{}%
+\contentsline {subsection}{\numberline {4.2}Problema 17}{11}{}%
+\contentsline {subsection}{\numberline {4.3}Problema 29}{12}{}%
+\contentsline {subsection}{\numberline {4.4}Problema 41}{12}{}%
+\contentsline {subsection}{\numberline {4.5}Problema 53}{12}{}%
+\contentsline {subsection}{\numberline {4.6}Problema 65}{13}{}%
+\contentsline {subsection}{\numberline {4.7}Conclusión}{13}{}%
+\contentsline {section}{\numberline {5}Problemario 4: 430-432}{13}{}%
+\contentsline {subsection}{\numberline {5.1}Problema 5}{13}{}%
+\contentsline {subsection}{\numberline {5.2}Problema 17}{14}{}%
+\contentsline {subsection}{\numberline {5.3}Problema 29}{14}{}%
+\contentsline {subsection}{\numberline {5.4}Problema 41}{14}{}%
+\contentsline {subsection}{\numberline {5.5}Conclusión}{15}{}%
+\contentsline {section}{\numberline {6}Problemario 5: 331-332}{16}{}%
+\contentsline {subsection}{\numberline {6.1}Problema 5}{16}{}%
+\contentsline {subsection}{\numberline {6.2}Problema 17}{16}{}%
+\contentsline {subsection}{\numberline {6.3}Problema 29}{16}{}%
+\contentsline {subsection}{\numberline {6.4}Problema 41}{17}{}%
+\contentsline {subsection}{\numberline {6.5}Problema 53}{18}{}%
+\contentsline {subsection}{\numberline {6.6}Problema 65}{18}{}%
+\contentsline {subsection}{\numberline {6.7}Conclusión}{19}{}%
+\contentsline {section}{\numberline {7}Problemario 6: 344-345}{19}{}%
+\contentsline {subsection}{\numberline {7.1}Problema 5}{19}{}%
+\contentsline {subsection}{\numberline {7.2}Problema 17}{19}{}%
+\contentsline {subsection}{\numberline {7.3}Problema 29}{20}{}%
+\contentsline {subsection}{\numberline {7.4}Conclusión}{21}{}%
+\contentsline {section}{\numberline {8}Problemario 7}{21}{}%
+\contentsline {subsection}{\numberline {8.1}Problema 5}{21}{}%
+\contentsline {subsection}{\numberline {8.2}Problema 17}{21}{}%
+\contentsline {section}{\numberline {9}Problema 29}{22}{}%
+\contentsline {subsection}{\numberline {9.1}Conclusión}{22}{}%
+\contentsline {section}{\numberline {10}Problemario 8: 347-348}{23}{}%
+\contentsline {subsection}{\numberline {10.1}Problema 5}{23}{}%
+\contentsline {subsection}{\numberline {10.2}Problema 17}{23}{}%
+\contentsline {subsection}{\numberline {10.3}Conclusión}{23}{}%
+\contentsline {section}{\numberline {11}Problemario 10}{24}{}%
+\contentsline {subsection}{\numberline {11.1}Problema 3}{24}{}%
+\contentsline {subsection}{\numberline {11.2}Conclusión}{24}{}%

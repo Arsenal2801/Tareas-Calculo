@@ -612,5 +612,157 @@ que no depende de $x_0$.
 \subsection{Conclusión}
 En conclusión, el cálculo del área bajo la curva es un concepto fundamental en el campo de las matemáticas, con diversas aplicaciones en distintas áreas de la ciencia y la ingeniería. Algunas de las aplicaciones más comunes son en el cálculo de integrales, la física, la economía y finanzas, y la ingeniería. El área bajo la curva se utiliza para calcular la longitud de arcos, el volumen de sólidos, el trabajo realizado por una fuerza en un desplazamiento, la energía cinética y potencial, el costo total, la ganancia total o la utilidad total, y puede utilizarse para la optimización de la producción o la maximización de la ganancia, entre otras aplicaciones. El cálculo del área bajo la curva es un concepto fundamental que permite entender y modelar de manera más precisa el comportamiento de diversas variables en distintos campos de la ciencia y la ingeniería.
 
+\section{Problemario 6: 344-345}
+\subsection{Problema 5}
+\begin{wrapfigure}{l}{0.45\textwidth}
+  \includegraphics[width=0.4\textwidth]{multimedia/Problema5.jpeg}
+\end{wrapfigure}
+Use el metodo de los cascarones para enontrar el volumen del solido de revolucion que se forma al girar la region dada alrededor de la recta indicada.
+El giro se dara alrededor de $ AB $ con el area $R_1$
 
+\begin{align*}
+  V = 2\pi\int_{0}^{1} (1-x)\sqrt{x}dx =\dots \\ \dots = 2\pi\left.\left(\frac{2}{\pi}x^{\frac{3}{2}}-\frac{2}{3}x^{\frac{5}{2}}\right)\right|_0^1 =\dots \\ \dots = \frac{8\pi}{15}
+\end{align*}
+\newline
+\newline
+\subsection{Problema 17}
+Use el metodo de cascarones para encontrar el volumen del solido de revolucion que se forma al girar la region acotada por las graficas de las ecuaciones dadas alrededor de a recta o eje que se indica.
+Siendo las ecuaciones las siguientes:
+\begin{align*}
+  y=x^{\frac{1}{3}},x=1,y=0;y=-1
+\end{align*}
+\begin{center}
+  \begin{tikzpicture}[scale=1.5]
+    \draw[->] (-0.5,0) -- (1.5,0) node[right] {$x$};
+    \draw[->] (0,-1.5) -- (0,1.5) node[above] {$y$};
+    \draw[domain=0:1,smooth,variable=\x,blue] plot ({\x},{\x^(1/3)});
+    \draw[dashed] (1,-1.3) -- (1,1.5) node[above] {$x=1$};
+    \draw[dashed] (-0.5,0) -- (1.5,0) node[right] {$y=0$};
+    \draw[dashed] (-0.5,-1) -- (1.5,-1) node[right] {$y=-1$};
+  \end{tikzpicture}
+\end{center}
+Solucionando:
+\begin{align*}
+  V = 2\pi\int_{0}^{1}(y+1)(1-y^3)dy =2\pi \int_{0}^{1}(1+y-y^3-y^4)dy = \dots \\ \dots = 2\pi\left.\left(y+\frac{1}{2}y^2-\frac{1}{4}y^4-\frac{1}{5}y^5\right)\right|_0^1 = \frac{21\pi}{10}
+\end{align*}
+
+\subsection{Problema 29}
+Use el metodo de cascarones para encontrar el volumen del solido de revolucion que se forma al girar la region acotada por las graficas de las ecuaciones dadas alrededor de a recta o eje que se indica.
+Siendo las ecuaciones las siguientes:
+\begin{align*}
+  y = sin (x^2) , x = 0, y = 1; y
+\end{align*}
+
+\begin{center}
+  \begin{tikzpicture}[scale=1.5]
+    \draw[->] (-0.5,0) -- (1.8,0) node[right] {$x$};
+    \draw[->] (0,-1.2) -- (0,1.2) node[above] {$y$};
+    \draw[domain=0:sqrt(pi/2),smooth,variable=\x,blue] plot ({\x},{sin(deg(\x^2))});
+    \draw[dashed] (0,-1) -- (1.8,-1) node[right] {$y=-1$};
+    \draw[dashed] (0,1) -- (1.8,1) node[right] {$y=1$};
+    \draw[dashed] (1.25331413732,0) -- (1.25331413732,1.2) node[above] {$x=\sqrt{\pi/2}$};
+  \end{tikzpicture}
+\end{center}
+
+Solucionando:
+\begin{align*}
+  V = 2\pi\int_{0}^{\sqrt{\frac{\pi}{2}}}(x-xsin(x^2))dx = 2\pi\left.\left(\frac{1}{2}x^2+\frac{1}{2}cos(x^2)\right)\right|_0^{\sqrt{\frac{\pi}{2}}} = \dots \\ \dots = 2\pi\left(\frac{\pi}{4}-\frac{1}{2}\right)=\frac{\pi^2-2\pi}{2}
+\end{align*}
+
+\subsection{Conclusión}
+La integración por el método de cascarones es una técnica que se utiliza para calcular el volumen de sólidos de revolución. La idea básica del método es descomponer el sólido en una serie de cascarones cilíndricos concéntricos de espesor infinitesimal. Luego se integra el área de cada cascarón a lo largo del eje de rotación para obtener el volumen total del sólido.\\
+En resumen, el método de cascarones es una herramienta útil para calcular el volumen de sólidos de revolución en casos en los que la integración directa es difícil o imposible.
+
+\section{Problemario 7}
+\subsection{Problema 5}
+La base de un sólido es un triángulo isósceles cuya base y altura miden, respectivamente, 4 y 5 pies. Las secciones transversales perpendiculares a la altura son semicírculos. Encuentre el volumen del sólido.
+\begin{align*}
+  y = -\frac{2}{5}x+2 &  & A(x) = \frac{1}{2}\pi y^2 = \frac{2\pi}{25}(x-5)^2
+\end{align*}
+\begin{align*}
+  V= \int_{0}^{5} \left(\frac{2\pi}{25}(x-5)^2 \right)dx = \left.\frac{2\pi}{75}(x-5)^2 \right|_0^5 =\frac{10\pi}{3}ft^3
+\end{align*}
+
+\subsection{Problema 17}
+Use el metodo de arandelas para encontrar el volumen del solido de revolucion que se forma al girar la region acotada por las ecuaciones dadas alrededor de la recta o eje que se indica.
+El sistema es:
+\begin{align*}
+  y = \frac{1}{x}, x = \frac{1}{2},y = \frac{1}{2} ; y
+\end{align*}
+\begin{center}
+  \begin{tikzpicture}[scale=2]
+    \draw[<->] (-0.2,0) -- (2.2,0) node[right] {$x$};
+    \draw[<->] (0,-0.2) -- (0,2.2) node[above] {$y$};
+    \draw[domain=0.5:1.8,smooth,variable=\x,blue] plot ({\x},{1/\x});
+    \draw[dashed] (0.5,0.5) -- (0.5,2);
+    \draw[dashed] (0.5,0.5) -- (2,0.5);
+    \filldraw[black] (0.5,0.5) circle (0.02) node[anchor=south west] {$(\frac{1}{2},\frac{1}{2})$};
+  \end{tikzpicture}
+\end{center}
+\begin{align*}
+  V = \pi \int_{\frac{1}{2}}^{1}\left[\left(\frac{1}{y}\right)^2-1^2\right]dy = \pi\int_{\frac{1}{2}}^{1}(y^{-2}-1)dy = \dots \\ \dots = \pi\left.\left(-\frac{1}{y}-y\right)\right|_{\frac{1}{2}}^1 = \pi \left[-2-\left(-\frac{5}{2}\right)\right] = \frac{\pi}{2}
+\end{align*}
+\section{Problema 29}
+Use el metodo de arandelas para encontrar el volumen del solido de revolucion que se forma al girar la region acotada por las ecuaciones dadas alrededor de la recta o eje que se indica.
+El sistema es:
+\begin{align*}
+  x^2-y^2=16,x=5;y
+\end{align*}
+
+\begin{center}
+  \includegraphics[width=0.3\textwidth]{multimedia/photo_5030828484276103944_m.jpg}
+\end{center}
+\begin{align*}
+  V=\pi\int_{-3}^{3}\left[5^2-\left(\sqrt{y^2+16}\right)^2\right]dy = \int_{-3}^{3}(9-y^2)dy = \dots \\ \dots = \pi\left.\left(9y-\frac{1}{3}y^3\right)\right|_{-3}^3 = \pi[18-(-18)] = 36\pi
+\end{align*}
+\subsection{Conclusión}
+La integración por arandelas es una técnica de cálculo integral que se utiliza para encontrar el volumen de un sólido de revolución generado al girar una región plana alrededor de un eje. En este método, se divide el sólido en infinitas arandelas y se calcula el volumen de cada una de ellas.
+Para calcular el volumen de una arandela, se utiliza la fórmula:
+\newline
+$$V = \pi \int_{a}^{b} (R(x)^2 - r(x)^2) dx$$
+\newline
+Donde $R(x)$ es el radio exterior de la arandela y $r(x)$ es el radio interior. El intervalo de integración $[a,b]$ corresponde a la región plana girada alrededor del eje.
+\newline
+La integración por arandelas es una técnica muy útil y versátil para calcular el volumen de sólidos de revolución.
+\section{Problemario 8: 347-348}
+\subsection{Problema 5}
+Encuentre la longitud de la grafica de la funcion dada sobre el intervalo indicado.
+\begin{align*}
+  y = \frac{2}{3}(x^2+1)^{\frac{3}{2}}; [1,4]
+\end{align*}
+Resolviendo:
+\begin{align*}
+  y'=2x(x^2+1)^{\frac{1}{2}}\\ s =\int_{1}^{4}\sqrt{1+4x^2(x^2+1)}dx = \int_{1}^{4}(2x^2+1)dx = \dots \\ \dots = \left.\left(\frac{2}{3}x^3+x\right)\right|_1^4=\frac{140}{3}-\frac{5}{3} = 45
+\end{align*}
+
+\subsection{Problema 17}
+Use:
+$$
+L=\int_{c}^{d}\sqrt{1+\left(\frac{dx}{dy}^2\right)}dy
+$$
+Para encontrar la longitud de la grafica de la ecuacion dada sobre el intervalo indicado.
+Siendo la ecuacion:
+$$
+x = 4-y^{\frac{2}{3}};[0,8s]
+$$
+Resolviendo:
+\begin{align*}
+  \frac{dx}{dy}=-\frac{2}{3}y^{-1/3}\\ s = \int_{0}^{8}\sqrt{1+\frac{4}{9}y^{-\frac{2}{3}}}dy = \frac{1}{3}\int_{0}^{8}y^{-\frac{1}{3}}\sqrt{9y^{\frac{2}{3}}+4}dy = \dots \\ u =9y^{\frac{2}{3}}+4, du =6y^{-\frac{1}{3}}dy \\ \frac{1}{18}\int_{4}^{40}u^{\frac{1}{2}} du = \left.\frac{1}{27}u^{-\frac{3}{2}}\right|_4^{40} = \frac{1}{27}(40^{\frac{3}{2}}-8)\approx 9.0734
+\end{align*}
+\subsection{Conclusión}
+La longitud de una curva es un concepto matemático que se refiere a la distancia total recorrida por la curva. La longitud de una curva puede ser calculada utilizando técnicas de cálculo integral, tales como la integral de longitud de arco.
+\\
+La integral de longitud de arco es una herramienta matemática utilizada para calcular la longitud de una curva en el plano. Esta técnica se basa en la idea de aproximar la curva con pequeños segmentos rectos y sumar las longitudes de estos segmentos para obtener una aproximación de la longitud total de la curva. Al hacer que los segmentos rectos sean cada vez más pequeños, la aproximación se hace más precisa.
+\\
+En resumen, la longitud de una curva puede ser calculada utilizando la integral de longitud de arco, la cual es una técnica de cálculo integral que se basa en la aproximación de la curva con pequeños segmentos rectos.
+
+\section{Problemario 10}
+\subsection{Problema 3}
+Determine el area de la superficie de aquella porcion del cilindro $x^2+z^2=16$ que esta sobre la region en el primer cuadrante acotada por las graficas de $x=0, x=2, y=0,y=5$.
+Usando $f(x,y)=z=\sqrt{16-x^2}$ podemos observar que para $0\leq x\leq2$ and $0\leq y\leq5$. Por lo tanto la superficie esta completamente por encima de la region. Ahora $f_x = - \frac{x}{\sqrt{16-x^2}}, f_y = 0, 1+f_x^2+f_y^2 = 1+\frac{x^2}{16-x^2}=\frac{16}{16-x^2}$  y 
+\begin{align*}
+  A =\int_{0}^{5}\int_{0}^{2}\frac{4}{\sqrt{16-x^2}}dxdy = \left.4 \int_{0}^{5}sin^{-1}(\frac{x}{4})\right|_0^2dy=4\int_{0}^{5}\frac{\pi}{6}dy=\frac{10\pi}{3}
+\end{align*}
+\subsection{Conclusión}
+En conclusión, el cálculo del área de la superficie de un sólido de revolución por el método de discos o arandelas consiste en descomponer el sólido en una serie de discos o anillos con espesor infinitesimal y calcular el área de cada uno de ellos. Luego, se integra el área de cada disco o anillo a lo largo del eje de revolución para obtener el área total de la superficie. Este método es útil en aplicaciones como la construcción de tanques de almacenamiento, la fabricación de piezas de maquinaria y la modelación de objetos tridimensionales en la ingeniería y el diseño.
 \end{document}
