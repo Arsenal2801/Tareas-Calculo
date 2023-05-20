@@ -1,0 +1,151 @@
+\documentclass{article}
+%=======================================================
+%                      Dependencies
+%=======================================================
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\usepackage{tabularx}
+\usepackage{wrapfig}
+\begin{document}
+%=======================================================
+%                      Front Page
+%=======================================================
+\begin{titlepage}
+    {\includegraphics[width=0.3\textwidth]{multimedia/ESCOM-Logo.png}}
+    \hfill
+    {\includegraphics[width=0.15\textwidth]{multimedia/Logo_Instituto_Politécnico_Nacional.png}\par}
+    \vspace{1cm}
+    \centering
+    {\bfseries\LARGE  INSTITUTO POLIT\'ECNICO NACIONAL\par}
+    \vspace{1cm}
+    {\scshape\LARGE Escuela Superior de C\'omputo\par}
+    \vspace{1cm}
+    {\scshape\Huge Unidad 2: Formas indefinidas \par}
+    \vspace{2cm}
+    {\itshape\Large Zarate Cardenas Alejandro 2CV5\par}
+    \vfill
+    {\Large Autores:\par}
+    {\Large Campos Zeron Salvador\par}
+    {\Large Díaz González Lizeth\par}
+    {\Large Girón Flores Carlos Alberto\par}
+    {\Large Hernández García Jaime Gabriel\par}
+    {\Large Izoteco Zacarias Pedro Uriel\par}
+    {\Large S\'anchez Ortega Gabriel\par}
+    \vfill
+    {\Large 19 de Mayo 2023 \par}
+\end{titlepage}
+\renewcommand*\contentsname{Indice}
+\tableofcontents
+\newpage
+\section{Introduccion}
+Las formas indeterminadas son expresiones matemáticas que no tienen un valor definido o determinado cuando se evalúan directamente. Estas expresiones suelen surgir al calcular límites o realizar operaciones algebraicas. Algunas de las formas indeterminadas más comunes son:
+
+    1) $0/0$: Esta forma indeterminada ocurre cuando se divide cero entre cero. En esta situación, no es posible determinar el valor del cociente debido a la falta de información sobre la relación entre los números cero.
+
+    2) $\infty /\infty$: Esta forma indeterminada se produce cuando se divide un número infinito entre otro número infinito. Aquí, el tamaño relativo de los infinitos no está claro, lo que dificulta la evaluación del cociente.
+
+    3) $0 * \infty$: En esta forma indeterminada, se tiene un producto en el que uno de los factores tiende a cero y el otro tiende a infinito. El resultado de la multiplicación puede variar ampliamente dependiendo de cómo se acerquen a cero y al infinito los factores involucrados.
+
+    4) $\infty - \infty$: Esta forma indeterminada se presenta cuando se resta un número infinito de otro número infinito. Al igual que con la forma $0 * \infty $, el resultado de esta operación puede ser ambiguo y no se puede determinar directamente.
+
+    5) $1^\infty$: Esta forma indeterminada surge cuando una base elevada a una potencia infinita no tiene un valor definido. El resultado puede variar dependiendo de cómo crezca la base y qué tan rápido se acerque la potencia a infinito.
+
+    6) $\infty^0$: Esta forma indeterminada se produce cuando un número infinito se eleva a la potencia cero. El valor de esta expresión no es evidente y requiere una mayor consideración.
+\newline
+\newline
+Es importante destacar que estas formas indeterminadas no implican que el límite no exista o que no se pueda calcular. En muchos casos, se puede utilizar el teorema de L'Hôpital, la factorización, la simplificación algebraica u otros métodos para resolver estas indeterminaciones y encontrar el valor del límite o la expresión en cuestión
+\section{Problemario}
+\subsection{Problema 5}
+Utilizando regla de L'Hopital encuentre el limite.
+\begin{equation}
+    \lim_{x\to 0} \frac{e^{2x}-1}{3x+x^2}
+\end{equation}
+Derivamos arriba y abajo
+\begin{equation}
+    \lim_{x\to 0}\frac{\frac{d}{dx}e^{2x}-1}{\frac{d}{dx}3x+x^2} = \lim_{x\to 0}\frac{2e^x}{3+2x}
+\end{equation}
+Evaluamos el limite.
+\begin{equation}
+    \lim_{x\to 0}\frac{2e^x}{3+2x} = \frac{2e^0}{3+2(0)}= \frac{2}{3}
+\end{equation}
+
+\subsection{Problema 17}
+Resuelva utilizando L'Hopital
+\setcounter{equation}{0}
+\begin{equation}
+    \lim_{x\to 0}\frac{cos(2x)}{x^2}
+\end{equation}
+Al tener una indeterminacion de tipo $\frac{1}{0}$ no existe una solucion.
+
+\subsection{Problema 29}
+Resuelva utilizando L'Hopital
+\setcounter{equation}{0}
+\begin{equation}
+    \lim_{x\to 0} \frac{x-tan^{-1}x}{x-sin^{-1}x}
+\end{equation}
+Aplicando L'Hopital
+\begin{equation}
+    \lim_{x\to 0} \frac{1-\frac{1}{1+x^2}}{1-\sqrt[root]{\frac{1}{1+x^2}}}
+\end{equation}
+Desarrollando
+\begin{equation}
+    \lim_{x\to 0}\frac{1-(1+x^2)^{-1}}{1-(1-x^2)^{-\frac{1}{2}}}
+\end{equation}
+Aplicamos L'Hopital nuevamente
+\begin{equation}
+    \lim_{x\to 0}\frac{2x(1+x^2)^{-2}}{-x(1-x^2)^{-\frac{3}{2}}}
+\end{equation}
+Desarrollamos y evaluamos el limite
+\begin{equation}
+    \lim_{x\to 0}\frac{2(1-x^2)^{\frac{3}{2}}}{-(1+x^2)^2} = \frac{2(1-0^2)^{\frac{3}{2}}}{-(1+0^2)^2} = \frac{2}{-1} = -2
+\end{equation}
+\subsection{Problema 41}
+Identifique el limite dado como una de las formas indeterminadas. Use regla de L'Hopital donde sea idoneo para encontrar el limite dado o concluya que no existe.
+\setcounter{equation}{0}
+\begin{equation}
+    \lim_{x\to 0}\left[\frac{1}{e^x-1}-\frac{1}{x}\right]
+\end{equation}
+Analizando lo anterior podemos notar que la forma indeterminada es de tipo $\infty - \infty$. Con esto en mente desarrollamos.
+
+\begin{equation}
+    \lim_{x\to 0}\frac{x-e^x+1}{xe^x-x}=\lim_{x\to 0} \frac{1-e^x}{xe^x+e^x-1} = \lim_{x\to 0}\frac{-e^x}{xe^x+2e^x}
+\end{equation}
+Evaluamos el limite
+\begin{equation}
+    \frac{-e^0}{0e^0+2e^0} = \frac{-1}{2} = -\frac{1}{2}
+\end{equation}
+\subsection{Problema 55}
+Identifique el limite dado como una de las formas indeterminadas. Use regla de L'Hopital donde sea idoneo para encontrar el limite dado o concluya que no existe.
+\setcounter{equation}{0}
+\begin{equation}
+    \lim_{t\to \infty}\left(1+\frac{3}{t}\right)^t
+\end{equation}
+Este limite tiene una forma indeterminada de tipo $1^\infty$ asi que utilizaremos que $y=\left(1+\frac{3}{t}\right)^t$. Despues tendremos lo siguiente $ln(y) =tln\left(1+\frac{3}{t}\right) $.
+\newline
+Desarrollamos
+\begin{equation}
+    \lim_{t\to \infty}tln\left(1+\frac{3}{t}\right) = \lim_{t\to \infty}\frac{ln\left(1+\frac{3}{t}\right)}{\frac{1}{t}}=\lim_{t\to \infty}\frac{\frac{-\frac{3}{t^2}}{1+\frac{3}{t}}}{-\frac{1}{t^2}} = \lim_{t\to \infty} \frac{3}{1+\frac{3}{t}}
+\end{equation}
+Aplicando el limite
+\begin{equation}
+    \lim_{t\to \infty} \frac{3}{1+\frac{3}{t}} = 3
+\end{equation}
+Finalmente agregamos la base $e$.
+\begin{equation}
+    \lim_{t\to \infty}\left(1+\frac{3}{t}\right)^t = e^3
+\end{equation}
+
+\subsection{Problema 65}
+Identifique el limite dado como una de las formas indeterminadas. Use regla de L'Hopital donde sea idoneo para encontrar el limite dado o concluya que no existe.
+\setcounter{equation}{0}
+
+\begin{equation}
+    \lim_{x\to \infty} x\left[\frac{\pi}{2}-arctan(x)\right]
+\end{equation}
+Definimos que la forma indeterminada es de tipo $0\cdot \infty$
+\begin{equation}
+    \lim_{x\to \infty} x\left[\frac{\pi}{2}-arctan(x)\right] = \lim_{x\to \infty}\frac{\frac{\pi}{2}-tan^{-1}x}{\frac{1}{x}} = \lim_{x\to \infty}\frac{x^2}{1+x^2}=\lim_{x\to \infty}\frac{2x}{2x}=1
+\end{equation}
+\end{document}
