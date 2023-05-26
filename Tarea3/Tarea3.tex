@@ -1,0 +1,153 @@
+\documentclass{article}
+%=======================================================
+%                      Dependencies
+%=======================================================
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\usepackage{tabularx}
+\usepackage{wrapfig}
+\begin{document}
+%=======================================================
+%                      Front Page
+%=======================================================
+\begin{titlepage}
+    {\includegraphics[width=0.3\textwidth]{multimedia/ESCOM-Logo.png}}
+    \hfill
+    {\includegraphics[width=0.15\textwidth]{multimedia/Logo_Instituto_Politécnico_Nacional.png}\par}
+    \vspace{1cm}
+    \centering
+    {\bfseries\LARGE  INSTITUTO POLIT\'ECNICO NACIONAL\par}
+    \vspace{1cm}
+    {\scshape\LARGE Escuela Superior de C\'omputo\par}
+    \vspace{1cm}
+    {\scshape\Huge Unidad 3: Integrales Impropias \par}
+    \vspace{2cm}
+    {\itshape\Large Zarate Cardenas Alejandro 2CV5\par}
+    \vfill
+    {\Large Autores:\par}
+    {\Large Campos Zeron Salvador\par}
+    {\Large Díaz González Lizeth\par}
+    {\Large Girón Flores Carlos Alberto\par}
+    {\Large Hernández García Jaime Gabriel\par}
+    {\Large Izoteco Zacarias Pedro Uriel\par}
+    {\Large S\'anchez Ortega Gabriel\par}
+    \vfill
+    {\Large 25 de Mayo 2023 \par}
+\end{titlepage}
+
+\renewcommand*\contentsname{Indice}
+\tableofcontents
+\newpage
+
+\section{Introduccion}
+
+Las integrales impropias son un concepto fundamental en el cálculo integral que permite extender el rango de integración más allá de los límites finitos. A diferencia de las integrales definidas, que se calculan sobre un intervalo acotado, las integrales impropias se aplican a funciones que pueden presentar singularidades o divergencias en los extremos del intervalo de integración.
+
+La necesidad de utilizar integrales impropias surge cuando la función a integrar no es continua en uno o ambos límites del intervalo, o cuando la función tiende a infinito en algún punto del intervalo. En estos casos, la integral definida no puede ser evaluada directamente, y se recurre a la noción de límite para definir la integral impropia.
+
+Existen dos tipos principales de integrales impropias: las integrales impropias de tipo 1 y las de tipo 2. Las integrales impropias de tipo 1 se refieren a aquellas en las que al menos uno de los límites de integración es infinito. Para evaluar estas integrales, se calcula primero la integral en un intervalo acotado y luego se toma el límite cuando el extremo del intervalo tiende a infinito.
+
+Por otro lado, las integrales impropias de tipo 2 ocurren cuando la función a integrar es discontinua en algún punto dentro del intervalo de integración. En este caso, se divide el intervalo en subintervalos donde la función sea continua y se evalúan las integrales en cada uno de ellos por separado. Luego, se toma el límite de la suma de estas integrales cuando los puntos de discontinuidad se acercan al límite del intervalo.
+
+Las integrales impropias tienen aplicaciones en diversas ramas de la ciencia y la ingeniería, como la física, la estadística y la teoría de probabilidades. Son una herramienta poderosa para el cálculo de áreas, volúmenes, cálculo de probabilidades y la resolución de problemas complejos que involucran funciones no acotadas o discontinuas.
+
+En resumen, las integrales impropias amplían el alcance de la integral definida permitiendo el estudio de funciones con características especiales en los límites del intervalo de integración. Su cálculo requiere el uso de límites y estrategias específicas para abordar las singularidades o divergencias presentes, y su comprensión es esencial para el desarrollo de análisis matemático avanzado.
+
+\section{Problemario}
+\subsection{Problema 5}
+Resuelva la siguiente integral:
+\begin{equation}
+    \int_{-\infty}^{3}e^{2x}dx
+\end{equation}
+Cambiando el limite inferior y aplicando limite:
+\begin{equation}
+    \lim_{s\to -\infty} \int_{s}^{3}e^{2x}dx = \lim_{s\to -\infty} \left.\frac{1}{2}e^{2x}\right|_{s}^{3}
+\end{equation}
+Resolvemos por el teorema del calculo y aplicamos el limite:
+\begin{equation}
+    \lim_{s\to -\infty}\left[\frac{1}{2}e^6-\frac{1}{2}e^{2s}\right] = \frac{1}{2}e^6
+\end{equation}
+
+\subsection{Problema 17}
+Realize la siguiente integral impropia:
+\setcounter{equation}{0}
+\begin{equation}
+    \int_{\frac{2}{\pi}}^{\infty}\frac{sin\frac{1}{x}}{x^2}dx
+\end{equation}
+Redefinimos el limite superior:
+\begin{equation}
+    \lim_{t\to \infty}\int_{\frac{2}{\pi}}^{t}\frac{sin\frac{1}{x}}{x^2}dx = \lim_{t\to \infty} \left.cos\frac{1}{x}\right|_{\frac{2}{\pi}}^{t}
+\end{equation}
+Evaluamos y aplicamos el limite:
+\begin{equation}
+    \lim_{t\to \infty}\left[cos\frac{1}{t}-cos\frac{\pi}{2}\right] = 1
+\end{equation}
+
+\subsection{Problema 29}
+Resuelva:
+\setcounter{equation}{0}
+\begin{equation}
+    \int_{-\infty}^{-2}\frac{x^2}{(x^3+1)^2}dx
+\end{equation}
+Redefiniendo el limite:
+\begin{equation}
+    \lim_{s \to -\infty}\int_{s}^{-2}\frac{1}{3}\left[\frac{3x^2}{(x^3+1)^2}\right]dx = \lim_{s \to -\infty}\left[\frac{1}{3}\left(\frac{1}{x^3+1}\right)\right]_{s}^{-2}
+\end{equation}
+Evaluamos y aplicamos el limite:
+\begin{equation}
+    -\frac{1}{3}\cdot-\frac{1}{7} = \frac{1}{21}
+\end{equation}
+
+\subsection{Problema 41}
+Resuelva para la siguiente integral:
+\setcounter{equation}{0}
+\begin{equation}
+    \int_{0}^{1}x\cdot lnx\cdot dx
+\end{equation}
+Redefinimos el limite inferior:
+\begin{equation}
+    \lim_{s\to 0^+}\int_{s}^{1}x\cdot lnx\cdot dx
+\end{equation}
+Definimos $u$ y $v$ para la integracion:
+\begin{equation}
+    u=lnx,du=\frac{1}{2}dx; dv=xdx, v=\frac{1}{2}x^2
+\end{equation}
+Resolvemos:
+\begin{align}
+    \lim_{s\to 0^+}\left(\left.\frac{1}{2}x^2 lnx\right|_{s}^{1}-\int_{s}^{1}\frac{1}{2}xdx\right) = \dots \\ \dots = \lim_{s\to 0^+} \left[-\frac{1}{2}s^2 lns-\frac{1}{4}+\frac{s^2}{4}\right] = \lim_{s\to 0^+} \left[-\frac{lns}{\frac{2}{s^2}}\right] - \frac{1}{4} = \dots \\ \dots = \lim_{s\to 0^+} \frac{s^2}{4}-\frac{1}{4} = -\frac{1}{4}
+\end{align}
+
+\subsection{Problema 53}
+Encuentre el valor de la siguiente integral:
+\setcounter{equation}{0}
+\begin{equation}
+    \int_{12}^{\infty}\frac{1}{\sqrt{x}(x+4)}dx
+\end{equation}
+Redefiniendo:
+\begin{equation}
+    \lim_{t\to \infty} \int_{12}^{t}\frac{1}{\sqrt{x}(x+4)}dx
+\end{equation}
+Integrando:
+\begin{align}
+    2\lim_{t\to \infty} \int_{2\sqrt{3}}^{t} \frac{u}{u(u^2+4)}du = 2\lim_{t\to \infty} \int_{2\sqrt{3}}^{t} \frac{1}{u^2+4}du = \dots \\ \dots = 2\lim_{t\to \infty} \left.\frac{1}{2}tan^{-1}\frac{u}{2}\right|_{2\sqrt{3}}^{t} = \lim_{t\to \infty} \left(tan^{-1}\frac{t}{2}-tan^{-1}\sqrt{3}\right) = \dots \\ \dots =\frac{\pi}{2}-\frac{\pi}{3} = \frac{\pi}{6}
+\end{align}
+
+\subsection{Problema 65}
+Resuelva lo siguiente:
+\setcounter{equation}{0}
+\begin{align}
+    \mathcal{L} (1) = \int_{0}^{\infty}e^{-st}dt = \lim_{k\to \infty} \int_{0}^{k}e^{-st}dt = \dots \\ \dots = \lim_{k\to \infty} \left.\left(-\frac{1}{s}e^{-st}\right)\right|_0^k = \lim_{k\to \infty} \left(\frac{1}{s}-\frac{1}{s}e^{-sk}\right) = \frac{1}{s},s>0
+\end{align}
+
+\section{Conclusiones}
+En conclusión, las integrales impropias son una herramienta fundamental en el cálculo integral que permite extender el concepto de integración más allá de los límites finitos. Estas integrales se aplican cuando la función a integrar presenta singularidades, divergencias o discontinuidades en el intervalo de integración.
+
+Las integrales impropias se dividen en dos tipos principales: las de tipo 1, donde al menos uno de los límites de integración es infinito, y las de tipo 2, donde la función es discontinua en algún punto del intervalo. Para evaluar estas integrales, se utilizan estrategias específicas que involucran el cálculo de límites y la subdivisión del intervalo en subintervalos donde la función sea continua.
+
+El estudio y comprensión de las integrales impropias son de gran importancia en diversas disciplinas científicas y de ingeniería, ya que permiten abordar problemas complejos que involucran funciones no acotadas o discontinuas. Estas integrales tienen aplicaciones en áreas como la física, la estadística y la teoría de probabilidades, donde se utilizan para calcular áreas, volúmenes, probabilidades y resolver ecuaciones diferenciales.
+
+En resumen, las integrales impropias amplían el alcance de la integral definida y brindan una herramienta poderosa para el análisis matemático avanzado. Su comprensión y aplicación adecuada son esenciales para resolver problemas que involucran funciones con características especiales en los límites de integración.
+
+\end{document}
